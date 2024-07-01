@@ -23,10 +23,14 @@
 define( 'DB_NAME', 'fabwpdb' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+// define( 'DB_USER', 'root' );
+/* cpanel */
+define( 'DB_USER', 'admin' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+// define( 'DB_PASSWORD', '' );
+/* cpanel */
+define( 'DB_PASSWORD', ',F,x7)-ekWd~' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
