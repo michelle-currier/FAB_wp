@@ -33,7 +33,9 @@ define( 'DB_USER', 'admin' );
 define( 'DB_PASSWORD', ',F,x7)-ekWd~' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+// define( 'DB_HOST', 'localhost' );
+/** cpanel test */
+define( 'DB_HOST', '107.180.48.28' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
