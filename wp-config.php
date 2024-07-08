@@ -23,19 +23,19 @@
 define( 'DB_NAME', 'fabwpdb' );
 
 /** Database username */
-// define( 'DB_USER', 'root' );
+define( 'DB_USER', 'root' );
 /* cpanel */
-define( 'DB_USER', 'admin' );
+// define( 'DB_USER', 'admin' );
 
 /** Database password */
-// define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '' );
 /* cpanel */
-define( 'DB_PASSWORD', ',F,x7)-ekWd~' );
+// define( 'DB_PASSWORD', ',F,x7)-ekWd~' );
 
 /** Database hostname */
-// define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost' );
 /** cpanel test */
-define( 'DB_HOST', '107.180.48.28' );
+// define( 'DB_HOST', '107.180.48.28' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -85,7 +85,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 

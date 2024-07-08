@@ -84,11 +84,10 @@ a:hover {
 a.btn { 
     border-radius: 12px 0px;
     background: #38B2AC;
-    border-top-color: #38B2AC;
-    border-bottom-color: #38B2AC;
-    border-left-color: #38B2AC;
-    border-right-color: #38B2AC;
     padding: 10px 16px 10px 16px;
+}
+.btn-secondary {
+    border-color: #38B2AC !important;
 }
 a.btn:hover {
     border: 1px solid #B83280;
